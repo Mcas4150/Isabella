@@ -24,11 +24,6 @@
   src: url(asset-path('fonts/ContourDeLettres.TTF')) format('truetype');
 }
 
-@font-face {
-  font-family: 'SF Hallucination Shadow';
-  src: url(asset-path('fonts/SF Hallucination Shadow.ttf')) format('truetype');
-}
-
 
 
 body{
@@ -54,7 +49,7 @@ body{
 
 .title{
   font-family: "ContourDeLettres";
-  font-size: 6em;
+  font-size: 5em;
   color: black;
   text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
 }
@@ -89,6 +84,7 @@ body{
   }
 
   .title{
+    font-size: 4.5em;
      color: white;
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
   }
@@ -99,8 +95,8 @@ body{
   }
 
   .third{
-   color: black;
-  text-shadow: -.75px 0 ghostwhite, 0 .75px ghostwhite, .75px 0 ghostwhite, 0 -.75px ghostwhite;
+   color: #E2D56F;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
   }
 }
 
