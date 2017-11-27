@@ -31,7 +31,8 @@ body{
 }
 
 .main{
-    height: 100vh;
+    height: 100%;
+    min-height: 100vh;
     background-image: url(https://i.imgur.com/ZLnEjUn.jpg);
     background-size: 100vw 100vh;
 }
@@ -78,9 +79,8 @@ body{
 
 @media (max-width: 750px) {
   .main{
-    height: 100vh;
     background-image: url(https://i.imgur.com/TyaeIXe.png);
-    background-size: 100vw 100vh;
+    background-size: 100vw auto;
   }
 
   .title{
