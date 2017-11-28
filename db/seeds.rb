@@ -20,7 +20,7 @@ def events_creation(date, name, location)
     event.save
 end
 
-events_creation(Date.new(2018, 7, 26), "://about blank", "Berlin")
+events_creation(Date.new(2018, 7, 26),  "://about blank", "Berlin")
 events_creation(Date.new(2017, 12, 28), "Good Room", "Brooklyn")
 events_creation(Date.new(2017, 11, 10), "Hassle Fest", "Boston")
 events_creation(Date.new(2017, 11, 4), "Lower Lower", "Boston")
